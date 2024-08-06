@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application form</title>
+</head>
+<body>
+    <center><p style="color: rgb(113, 43, 226);">All the best</p>
+        <h1> Software Developer Job Application Form</h1>
+        <form action="./submit.txt">
+            <fieldset style="border-radius: 0%; width: 500px; " >
+            <legend>Personal Information</legend>
+            <label id="full name">Full name:</label>
+            <input type="fname" name="full name" id="full name" required><br><br>
+            <label id="email">Email id:</label>
+            <input type="email" name="email" required><br><br>
+            <label id="Phone number">Phone number:</label>
+            <input type="phone number" name="Phone number" required>
+    </fieldset><br>
+    <fieldset style="border-radius: 0%; width: 500px;">
+        <legend>JOb details</legend>
+        <label id="text">Position Applied For:</label>
+        <input type="text" name="text" placeholder="Software Developer" required readonly><br><br>
+        <label id="text">Year of Experience:</label>
+        <input type="text" name="text" required><br><br>
+        <label id="text">Technical skills:</label>
+        <input list="skills" name="text" required><br><br>
+        <datalist id="skills">
+            <option value="java">
+            <option value="html">
+            <option value="css">
+            <option value="c">
+            <option value="c+">
+          </datalist>
+       
+        <label id="text">Preferred Location:</label>
+        <select id="Location">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Guntur">Guntur</option>
+            <option value="Vizag">Vizag</option>
+        </select>
+        </select><br><br>
+        <label id="resume"> Upload Resume</label>
+        <input type="file" name="resume">
+    </fieldset><br><br>
+    <button style="margin-right: 409px;">Submit application</button>
+</div>
+    </center>
+</form>
+    
+</body>
+</html>
